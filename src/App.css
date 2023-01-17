@@ -1,3 +1,19 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+/* 
+MAIN COLOR: #1971c2
+lighter: #22b8cf
+SECONDARY: #f03e3e
+GREY #343a40
+
+*/
+
 .App {
   text-align: center;
 }

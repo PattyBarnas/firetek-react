@@ -31,12 +31,13 @@
   position: relative;
   /* background-color: blue; */
 }
+
 .hero-section p {
   display: block;
   color: #f1f3f5;
   font-size: 2.4rem;
   letter-spacing: 1.2px;
-  word-spacing: 12px;
+  word-spacing: 6px;
   max-width: 50%;
   margin-bottom: 4.2rem;
   text-align: center;
@@ -63,5 +64,15 @@
 .hero-section button:hover {
   border-color: rgb(240, 62, 62);
   background-color: rgb(240, 62, 62);
-  /* color: rgb(240, 62, 62); */
+  animation: 0.3s hoverBtn linear;
+}
+
+@keyframes hoverBtn {
+  0% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: rgb(240, 62, 62);
+  }
 }

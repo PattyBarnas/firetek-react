@@ -9,6 +9,8 @@ import {
 
 import MainNavigation from "./components/Navigation/MainNavigation";
 import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
+import Footer from "./components/UIElements/Footer";
 
 function App() {
   return (
@@ -17,10 +19,11 @@ function App() {
 
       <Routes>
         <Route path="/" element={<Hero />}></Route>
-        <Route path="/services" element={<h1>hi</h1>}></Route>
+        <Route path="/services" element={<Services />}></Route>
         <Route path="/about"></Route>
         <Route path="/contact"></Route>
       </Routes>
+      <Footer />
     </Router>
   );
 }

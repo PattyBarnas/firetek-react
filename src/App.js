@@ -9,18 +9,18 @@ import {
 
 import MainNavigation from "./components/Navigation/MainNavigation";
 import Hero from "./components/Hero/Hero";
+import Services from "./components/Services/Services";
+import Footer from "./components/UIElements/Footer";
 
 function App() {
   return (
     <Router>
       <MainNavigation />
-
       <Routes>
         <Route path="/" element={<Hero />}></Route>
-        <Route path="/services" element={<h1>hi</h1>}></Route>
-        <Route path="/about"></Route>
-        <Route path="/contact"></Route>
+        <Route path="/services" element={<Services />}></Route>
       </Routes>
+      <Footer />
     </Router>
   );
 }

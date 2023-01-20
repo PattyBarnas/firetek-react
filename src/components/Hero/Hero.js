@@ -1,7 +1,12 @@
 import React from "react";
 import "./Hero.css";
+import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
+  const navigate = useNavigate();
+  const buttonClickHandler = () => {
+    navigate("/services");
+  };
   return (
     <main className="hero-section-main">
       <div className="hero-section">
@@ -13,7 +18,11 @@ const Hero = () => {
           </p>
         </div>
         <div className="btn-container">
-          <button className="btn-learn-more" href="">
+          <button
+            className="btn-learn-more"
+            href=""
+            onClick={buttonClickHandler}
+          >
             Learn more
           </button>
         </div>

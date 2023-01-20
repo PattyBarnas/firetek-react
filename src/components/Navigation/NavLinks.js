@@ -29,17 +29,7 @@ const NavLinks = () => {
             Services
           </NavLink>
         </li>
-        <li>
-          <NavLink
-            className="nav-link"
-            to="about"
-            style={({ isActive }) => ({
-              color: isActive ? "#f03e3e" : "#f1f3f5",
-            })}
-          >
-            About us
-          </NavLink>
-        </li>
+
         <li className="call-us">
           <a className="call-us" href="tel:773-475-1290">
             <svg

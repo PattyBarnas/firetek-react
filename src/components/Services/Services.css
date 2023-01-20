@@ -51,9 +51,9 @@ h2 {
   margin-top: 2.2rem;
   background-color: #fff;
   align-items: center;
-  justify-items: start;
-  padding: 8.2rem;
-  gap: 12rem 5rem;
+  justify-items: center;
+  padding: 1.2rem 0 6.2rem 13.4rem;
+  gap: 12rem 6.2rem;
 }
 
 span {
@@ -63,17 +63,17 @@ span {
   color: #dee2e6;
   transform: translateY(35%);
 }
+
 .ac-unit {
-  display: block;
   max-width: 55%;
   border-radius: 32px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 12px 24px 36px rgba(0, 0, 0, 0.1);
 }
 .furnace-unit {
   max-width: 55%;
   margin-top: 6rem;
   border-radius: 32px;
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  box-shadow: 12px 24px 36px rgba(0, 0, 0, 0.1);
 }
 .furnace-img {
   grid-column: 1/2;

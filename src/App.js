@@ -16,12 +16,9 @@ function App() {
   return (
     <Router>
       <MainNavigation />
-
       <Routes>
         <Route path="/" element={<Hero />}></Route>
         <Route path="/services" element={<Services />}></Route>
-        <Route path="/about"></Route>
-        <Route path="/contact"></Route>
       </Routes>
       <Footer />
     </Router>

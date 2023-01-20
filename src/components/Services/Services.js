@@ -8,7 +8,7 @@ const Services = () => {
       <p className="services-ad">
         Free estimates and <br />7 days a week services
       </p>
-      <div className="services"></div>
+      <div className="services" />
       <div className="services-provided">
         <div className="ac-services">
           <span>01.</span>
@@ -29,7 +29,12 @@ const Services = () => {
         <div className="furnace-services">
           <span>02.</span>
           <h3>Furnace services and installation</h3>
-          <p>We </p>
+          <p>
+            Also providing heating services. No matter what your needs are, our
+            expert technicians will get it done the right way! We offer Furnace
+            installation, Furnace maintenance, Furnace repair and Furnace
+            replacement.
+          </p>
         </div>
         <div className="furnace-img">
           <img
@@ -37,6 +42,12 @@ const Services = () => {
             src={require("../../images/f-p.jpg")}
             alt="furnace-unit"
           />
+        </div>
+        <div>
+          <h2>Water Heaters</h2>
+        </div>
+        <div>
+          <h2>Boilers</h2>
         </div>
       </div>
     </div>

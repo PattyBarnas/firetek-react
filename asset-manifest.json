@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/firetek-react/static/css/main.e85a1340.css",
+    "main.js": "/firetek-react/static/js/main.f5118e1e.js",
+    "static/media/air-conditioner.jpg": "/firetek-react/static/media/air-conditioner.4ada227b39dd3e7a078a.jpg",
+    "static/media/hero-img.jpg": "/firetek-react/static/media/hero-img.c18707b1da577911efc5.jpg",
+    "static/media/f-p.jpg": "/firetek-react/static/media/f-p.4a468c56c2f4e9b7f4ec.jpg",
+    "static/media/services.jpg": "/firetek-react/static/media/services.8551ee80ca693e800494.jpg",
+    "index.html": "/firetek-react/index.html",
+    "main.e85a1340.css.map": "/firetek-react/static/css/main.e85a1340.css.map",
+    "main.f5118e1e.js.map": "/firetek-react/static/js/main.f5118e1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e85a1340.css",
+    "static/js/main.f5118e1e.js"
+  ]
+}

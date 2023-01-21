@@ -81,17 +81,11 @@
   .hero {
     align-items: center;
   }
-  .btn-learn-more {
-    right: 42.5%;
-  }
 }
 
 @media (max-width: 1082px) {
   html {
     font-size: 55%;
-  }
-  .btn-learn-more {
-    right: 41%;
   }
 }
 
@@ -102,15 +96,6 @@
   }
   .hero-section p {
     max-width: 70%;
-  }
-  .btn-learn-more {
-    right: 38%;
-  }
-}
-
-@media (max-width: 588px) {
-  .btn-learn-more {
-    right: 35%;
   }
 }
 

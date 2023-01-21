@@ -17,7 +17,7 @@ function App() {
     <Router>
       <MainNavigation />
       <Routes>
-        <Route path="/" element={<Hero />} exact></Route>
+        <Route path="/home" element={<Hero />} exact></Route>
         <Route path="/services" element={<Services />}></Route>
       </Routes>
       <Footer />

@@ -16,8 +16,6 @@ const Hero = () => {
             Chicago weather is unpredicatable, but don't worry we got you
             covered! providing you our heating and cooling services.
           </p>
-        </div>
-        <div className="btn-container">
           <button
             className="btn-learn-more"
             href=""

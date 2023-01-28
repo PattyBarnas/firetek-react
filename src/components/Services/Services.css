@@ -65,17 +65,25 @@ span {
 }
 
 .ac-unit {
-  max-width: 100%;
+  max-width: 80%;
   border-radius: 32px;
-  box-shadow: 12px 24px 36px rgba(0, 0, 0, 0.226);
+  box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
   border: solid 1.2px rgba(0, 0, 0, 0.1);
   padding: 2.5rem;
 }
+
+.ac-unit:hover {
+  transform: scale(104%);
+  box-shadow: 8px 24px 32px rgba(0, 0, 0, 0.226);
+}
+
 .furnace-unit {
   max-width: 55%;
   margin-top: 6rem;
   border-radius: 32px;
-  box-shadow: 12px 24px 36px rgba(0, 0, 0, 0.1);
+  box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
+  border: solid 1.2px rgba(0, 0, 0, 0.1);
+  padding: 2.5rem;
 }
 .furnace-img {
   grid-column: 1/2;
@@ -148,7 +156,22 @@ span {
   .services-provided {
     padding-left: 0;
   }
+  .furnace-services {
+    text-align: center;
+  }
+  .furnace-services p {
+    margin: 0 auto;
+    max-width: 100%;
+  }
+  .furnace-unit {
+    display: block;
+    margin: 6rem auto;
+  }
 }
 
 @media (max-width: 550px) {
+  .services-ad {
+    max-width: 100%;
+    padding: 2.5rem;
+  }
 }

@@ -5,7 +5,13 @@ import "./NavLinks.css";
 const NavLinks = () => {
   return (
     <div className="nav-container">
-      <img src={require("../../images/firetek-logo.jpg")} alt="firetek-logo" />
+      {/* <div> */}
+      <img
+        className="nav-img"
+        src={require("../../images/firetek-logo.jpg")}
+        alt="firetek-logo"
+      />
+      {/* </div> */}
       <ul className="nav-links">
         <li>
           <NavLink

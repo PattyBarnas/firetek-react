@@ -43,11 +43,39 @@ const Services = () => {
             alt="furnace-unit"
           />
         </div>
-        <div>
-          <h2>Water Heaters</h2>
+        <div className="water-heater-services">
+          <span>03.</span>
+          <h3>Water Heater services and installation</h3>
+          <p>
+            Also providing heating services. No matter what your needs are, our
+            expert technicians will get it done the right way! We offer Furnace
+            installation, Furnace maintenance, Furnace repair and Furnace
+            replacement.
+          </p>
         </div>
-        <div>
-          <h2>Boilers</h2>
+        <div className="water-heater-img">
+          <img
+            className="water-heater-unit"
+            src={require("../../images/water-heater.jpg")}
+            alt="water-heater-unit"
+          />
+        </div>
+        <div className="boiler-services">
+          <span>04.</span>
+          <h3>Boilers - Zoning</h3>
+          <p>
+            Also providing heating services. No matter what your needs are, our
+            expert technicians will get it done the right way! We offer Furnace
+            installation, Furnace maintenance, Furnace repair and Furnace
+            replacement.
+          </p>
+        </div>
+        <div className="boilers-img">
+          <img
+            className="boilers"
+            src={require("../../images/water-boiler.jpg")}
+            alt="boilers - zoning"
+          />
         </div>
       </div>
     </div>

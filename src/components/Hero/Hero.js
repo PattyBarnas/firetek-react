@@ -18,7 +18,7 @@ const Hero = () => {
           </p>
           <button
             className="btn-learn-more"
-            href=""
+            aria-label="button to services page"
             onClick={buttonClickHandler}
           >
             Learn more

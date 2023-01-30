@@ -73,6 +73,18 @@ span {
   border: solid 1.2px rgba(0, 0, 0, 0.1);
   padding: 2.5rem;
 }
+.ac-services h3 {
+  font-size: 3rem;
+  font-weight: 600;
+  margin-top: 2rem;
+}
+
+.ac-services p {
+  font-size: 1.8rem;
+  letter-spacing: 1.1px;
+  max-width: 85%;
+  /* margin-bottom: 12rem; */
+}
 
 .ac-unit:hover {
   transform: scale(104%);
@@ -87,22 +99,13 @@ span {
   border: solid 1.2px rgba(0, 0, 0, 0.1);
   padding: 2.5rem;
 }
+.furnace-unit:hover {
+  transform: scale(104%);
+  box-shadow: 8px 24px 32px rgba(0, 0, 0, 0.226);
+}
 .furnace-img {
   grid-column: 1/2;
   grid-row: 2/3;
-}
-
-.ac-services h3 {
-  font-size: 3rem;
-  font-weight: 600;
-  margin-top: 2rem;
-}
-
-.ac-services p {
-  font-size: 1.8rem;
-  letter-spacing: 1.1px;
-  max-width: 85%;
-  /* margin-bottom: 12rem; */
 }
 
 .furnace-services {
@@ -125,6 +128,7 @@ span {
     display: flex;
     flex-direction: column;
     gap: 0;
+    padding-left: 0;
   }
   .ac {
     grid-row: 2/3;
@@ -143,7 +147,6 @@ span {
   }
 
   .ac-services p {
-    /* text-align: center; */
     margin: 0 auto;
   }
 
@@ -152,15 +155,14 @@ span {
     flex-direction: column;
     align-items: center;
   }
-  .services-provided {
-    padding-left: 0;
-  }
+
   .furnace-services {
     text-align: center;
+    padding: 2.5rem 2.5rem;
   }
   .furnace-services p {
     margin: 0 auto;
-    max-width: 100%;
+    max-width: 85%;
   }
   .furnace-unit {
     display: block;
@@ -173,19 +175,34 @@ span {
     font-size: 50%;
   }
   .ac-services h3 {
-    font-size: 2.8rem;
+    font-size: 2.7rem;
+    padding: 0 1.1rem;
   }
 
   .ac-services p {
     font-size: 2rem;
     text-align: left;
-    width: 95vw;
-    margin-left: 4.2rem;
+    width: 98vw;
     letter-spacing: 1px;
   }
   .ac-services span {
-    /* padding: 2rem 2rem; */
     margin-bottom: 1.8rem;
+  }
+  .furnace-services span {
+    margin-bottom: 1.8rem;
+  }
+
+  .furnace-services h3 {
+    font-size: 2.7rem;
+    padding: 0 1.1rem;
+  }
+
+  .furnace-services p {
+    font-size: 2rem;
+    text-align: left;
+    width: 95vw;
+    margin-left: 4.2rem;
+    letter-spacing: 1px;
   }
 }
 

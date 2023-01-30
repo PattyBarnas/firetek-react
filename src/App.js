@@ -1,16 +1,10 @@
-import "./App.css";
-import {
-  BrowserRouter as Router,
-  Route,
-  Routes,
-  Redirect,
-  Switch,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import MainNavigation from "./components/Navigation/MainNavigation";
 import Hero from "./components/Hero/Hero";
 import Services from "./components/Services/Services";
 import Footer from "./components/UIElements/Footer";
+import Contact from "./components/Contact/Contact";
 
 function App() {
   return (
@@ -19,6 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Hero />} exact></Route>
         <Route path="/services" element={<Services />}></Route>
+        <Route path="/contact" element={<Contact />}></Route>
       </Routes>
       <Footer />
     </Router>

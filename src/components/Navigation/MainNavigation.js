@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Hero from "../Hero/Hero";
+
 import MainHeader from "./MainHeader";
 import NavLinks from "./NavLinks";
 import SideDrawer from "../UIElements/SideDrawer";
@@ -20,9 +20,9 @@ const MainNavigation = () => {
     <React.Fragment>
       {drawerIsOpen && <Backdrop onClick={closeDrawerHandler} />}
       <SideDrawer show={drawerIsOpen} onClick={closeDrawerHandler}>
-        {/* <nav className="main-navigation__drawer-nav"> */}
-        <NavLinks />
-        {/* </nav> */}
+        <nav className="main-navigation__drawer-nav">
+          <NavLinks />
+        </nav>
       </SideDrawer>
       <MainHeader>
         <button

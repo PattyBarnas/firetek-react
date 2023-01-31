@@ -82,13 +82,14 @@
   .hero-section-main {
     background-image: linear-gradient(
         to right bottom,
-        rgba(0, 0, 0, 0.65),
-        rgba(0, 0, 0, 1)
+        rgba(0, 0, 0, 1),
+        rgba(0, 0, 0, 0.7)
       ),
       url("../../images/hero-img.jpg");
   }
   .hero p {
     max-width: 100%;
+    letter-spacing: 1.8px;
   }
   .hero-title {
     text-align: center;
@@ -100,13 +101,13 @@
     font-size: 45%;
   }
   .hero-title {
-    text-align: center;
-    margin-bottom: 3.4rem;
-    line-height: 5.2rem;
+    text-align: left;
+    margin: 0 0 3.4rem 1.2rem;
+    line-height: 5.8rem;
   }
   .hero-section p {
     text-align: left;
-    max-width: 90%;
-    margin: 3.2rem 0 6.2rem 3.2rem;
+    max-width: 95%;
+    margin: 3.2rem 0 8.2rem 1.2rem;
   }
 }

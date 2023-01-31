@@ -1,0 +1,23 @@
+.contact-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  align-items: start;
+  justify-content: start;
+}
+h5 {
+  margin: 4.2rem 0 0 0;
+  grid-column: 1/-1;
+  color: rgba(240, 62, 62, 0.874);
+  font-size: 2.4rem;
+  text-align: center;
+}
+.contact-message {
+  color: #ced4da;
+  text-align: center;
+  font-size: 2.4rem;
+}
+.header-text {
+  padding: 1.4rem;
+  margin-bottom: 1.8rem;
+}

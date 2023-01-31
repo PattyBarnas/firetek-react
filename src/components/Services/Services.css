@@ -110,6 +110,7 @@ span {
 }
 .furnace-unit {
   align-self: start;
+  margin-bottom: 6.8rem;
 }
 
 .furnace-services {
@@ -162,6 +163,7 @@ span {
   display: block;
   margin-top: 6rem;
   border-radius: 32px;
+  box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
   border: solid 1.2px rgba(0, 0, 0, 0.1);
   padding: 0.8rem;
 }
@@ -326,7 +328,6 @@ span {
   .water-heater-services p {
     font-size: 2rem;
 
-    /* width: 95vw; */
     margin-left: 4.2rem;
     letter-spacing: 1px;
   }

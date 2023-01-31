@@ -1,0 +1,98 @@
+form {
+  padding: 2.4rem;
+  background-color: #e9ecef;
+  border-radius: 12px;
+  width: 80%;
+  margin: 0 auto;
+  box-shadow: 2px 4px 12px rgba(255, 255, 255, 0.52);
+  margin-bottom: 6.2rem;
+}
+.label {
+  color: #495057;
+  font-size: 2.2rem;
+  font-weight: 500;
+  padding: 2.2rem 0 0.8rem 0;
+  text-align: center;
+  letter-spacing: 1.2px;
+  word-spacing: 1.8px;
+}
+
+.nameInputClasses {
+  display: flex;
+  flex-direction: column;
+}
+
+.nameInputClasses input {
+  height: 4rem;
+  align-self: center;
+  width: 35%;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.7rem;
+}
+
+.nameInputClasses textarea {
+  align-self: center;
+  width: 70%;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 12px;
+  font-size: 1.7rem;
+}
+
+.input-form:hover,
+.input-form:focus,
+.nameInputClasses textarea:hover,
+.nameInputClasses textarea:focus {
+  background-color: #f8f9fa;
+}
+
+.btn-send-msg {
+  display: block;
+  margin: 2.2rem auto;
+  padding: 1.4rem 4.8rem;
+  color: #343a40;
+  border-radius: 12px;
+  background-color: transparent;
+  font-size: 1.6rem;
+  letter-spacing: 1.4px;
+  border-color: rgba(59, 200, 219, 0.419);
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.btn-send-msg:hover {
+  border-color: rgb(59, 200, 219);
+  background-color: rgb(59, 200, 219);
+  animation: 0.3s hoverBlueBtn linear;
+  box-shadow: 0px 6px 24px rgba(59, 200, 219, 0.5);
+  color: #fff;
+}
+
+@keyframes hoverBlueBtn {
+  0% {
+    background-color: transparent;
+  }
+
+  100% {
+    background-color: rgb(59, 200, 219);
+  }
+}
+
+@media (max-width: 1200px) {
+  .nameInputClasses input {
+    width: 55%;
+  }
+}
+@media (max-width: 768px) {
+  form {
+    width: 90%;
+  }
+  .nameInputClasses input {
+    width: 75%;
+  }
+  .nameInputClasses textarea {
+    width: 85%;
+  }
+}

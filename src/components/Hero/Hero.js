@@ -14,7 +14,8 @@ const Hero = () => {
           <h1 className="hero-title">Providing comfort at home.</h1>
           <p>
             Chicago weather is unpredicatable, but don't worry we got you
-            covered! providing you our heating and cooling services.
+            covered! providing you our heating and cooling services. We run 24/7
+            and are ready to serve quality work.
           </p>
           <button
             className="btn-learn-more"

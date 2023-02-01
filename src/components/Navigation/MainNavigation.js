@@ -29,9 +29,9 @@ const MainNavigation = () => {
           className="main-navigation__menu-btn"
           onClick={openDrawerHandler}
         >
-          <span />
-          <span />
-          <span />
+          <span className="phone-menu-btn" />
+          <span className="phone-menu-btn" />
+          <span className="phone-menu-btn" />
         </button>
         <nav className="main-navigation__header-nav">
           <NavLinks />

@@ -17,12 +17,24 @@ form {
   word-spacing: 1.8px;
 }
 
-.nameInputClasses {
+.error {
+  background-color: #ffc9c9;
+}
+.invalid-input {
+  font-size: 1.8rem;
+  color: #f03e3e;
+  font-weight: 500;
+}
+.submitted-message {
+  font-size: 1.8rem;
+  color: #f03e3e;
+}
+.inputContainer {
   display: flex;
   flex-direction: column;
 }
 
-.nameInputClasses input {
+.inputContainer input {
   height: 4rem;
   align-self: center;
   width: 35%;
@@ -32,7 +44,7 @@ form {
   font-size: 1.7rem;
 }
 
-.nameInputClasses textarea {
+.inputContainer textarea {
   align-self: center;
   width: 70%;
   padding: 1.2rem;
@@ -41,12 +53,12 @@ form {
   font-size: 1.7rem;
 }
 
-.input-form:hover,
+/* .input-form:hover,
 .input-form:focus,
-.nameInputClasses textarea:hover,
-.nameInputClasses textarea:focus {
+.inputContainer textarea:hover,
+.inputContainer textarea:focus {
   background-color: #f8f9fa;
-}
+} */
 
 .btn-send-msg {
   display: block;
@@ -81,7 +93,7 @@ form {
 }
 
 @media (max-width: 1200px) {
-  .nameInputClasses input {
+  .inputContainer input {
     width: 55%;
   }
 }
@@ -89,10 +101,10 @@ form {
   form {
     width: 90%;
   }
-  .nameInputClasses input {
+  .inputContainer input {
     width: 75%;
   }
-  .nameInputClasses textarea {
+  .inputContainer textarea {
     width: 85%;
   }
 }

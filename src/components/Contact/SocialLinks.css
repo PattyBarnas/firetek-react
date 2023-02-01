@@ -1,8 +1,31 @@
 ion-icon {
   display: inline-block;
-  width: 8.4rem;
-  height: 8.4rem;
+  width: 5.2rem;
+  height: 5.2rem;
   color: white;
 }
-ion-icon .facebook-link {
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 6.4rem;
+  padding: 3.6rem;
+  box-shadow: 1px 1px 12px rgba(255, 255, 255, 0.2);
+}
+.social-link:first-child {
+  background-color: #1864ab;
+  border-radius: 12px;
+}
+.social-link:nth-child(2) {
+  background-color: #adb5bd;
+  border-radius: 12px;
+}
+.social-link:last-child {
+  background-color: #a61e4d;
+
+  border-radius: 12px;
+}
+
+.social-link:hover {
+  transform: translateY(-4%);
 }

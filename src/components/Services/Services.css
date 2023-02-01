@@ -51,17 +51,18 @@ h2 {
   margin-top: 2.2rem;
   background-color: #fff;
   align-items: center;
-  justify-items: center;
+  justify-content: start;
   padding: 1.2rem 0 6.2rem 13.4rem;
   gap: 9.6rem 8.8rem;
 }
 
-span {
+.services-provided span {
   display: inline-block;
   font-size: 6.8rem;
   font-weight: 600;
   color: #dee2e6;
   transform: translateY(35%);
+  padding-bottom: 1.2rem;
 }
 /* /////////////AC//////////// */
 
@@ -93,7 +94,6 @@ span {
 
 .furnace-unit {
   max-width: 65%;
-
   margin-top: 6rem;
   border-radius: 32px;
   box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
@@ -145,7 +145,6 @@ span {
 .water-heater-unit {
   display: block;
   max-width: 60%;
-  margin-top: 6rem;
   border-radius: 32px;
   box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
   border: solid 1.2px rgba(0, 0, 0, 0.1);
@@ -161,7 +160,6 @@ span {
 .boilers {
   max-width: 80%;
   display: block;
-  margin-top: 6rem;
   border-radius: 32px;
   box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
   border: solid 1.2px rgba(0, 0, 0, 0.1);
@@ -170,6 +168,10 @@ span {
 .boilers-img {
   grid-column: 1/2;
   grid-row: 4/5;
+  align-self: flex-start;
+  justify-self: center;
+  column-gap: 6.4rem;
+  padding-top: 6.2rem;
 }
 
 .boilers:hover {
@@ -178,6 +180,7 @@ span {
 }
 .boiler-services {
   grid-column: 2/3;
+  align-self: flex-start;
 }
 .boiler-services h3 {
   font-size: 2.4rem;

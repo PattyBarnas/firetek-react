@@ -11,6 +11,7 @@ const Services = () => {
       <div className="services" />
       <div className="services-provided">
         <div className="ac-services">
+          {/* <hr /> */}
           <span>01.</span>
           <h3>Air conditioning services and installation</h3>
           <p>
@@ -26,7 +27,9 @@ const Services = () => {
             alt="ac-unit"
           />
         </div>
+
         <div className="furnace-services">
+          <hr />
           <span>02.</span>
           <h3>Furnace services and installation</h3>
           <p>
@@ -44,6 +47,7 @@ const Services = () => {
           />
         </div>
         <div className="water-heater-services">
+          <hr />
           <span>03.</span>
           <h3>Water Heater services and installation</h3>
           <p>
@@ -60,7 +64,9 @@ const Services = () => {
             alt="water-heater-unit"
           />
         </div>
+
         <div className="boiler-services">
+          <hr />
           <span>04.</span>
           <h3>Boilers - Zoning</h3>
           <p>

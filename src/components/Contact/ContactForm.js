@@ -2,6 +2,8 @@ import React from "react";
 import { useRef, useState } from "react";
 import "./ContactForm.css";
 import emailjs from "@emailjs/browser";
+import Modal from "../UIElements/Modal";
+import Backdrop from "../UIElements/Backdrop";
 
 const publicKey = "qm_baMBq4t7rgLwj_";
 const templateId = "template_5xmbk0n";
@@ -11,7 +13,7 @@ const isEmpty = (value) => value.trim() === "";
 const isEmail = (value) =>
   value.trim() !== "" && value.length > 5 && value.includes("@");
 
-const ContactForm = () => {
+const ContactForm = (props) => {
   const [formInputsValidity, setFormInputsValidity] = useState({
     name: true,
     number: true,
@@ -19,6 +21,8 @@ const ContactForm = () => {
     message: true,
   });
   const [didSubmit, setDidSubmit] = useState(false);
+
+  const [modalOpen, setModalOpen] = useState(false);
 
   const fullNameRef = useRef();
   const numberRef = useRef();
@@ -70,6 +74,11 @@ const ContactForm = () => {
         "";
 
     setDidSubmit(true);
+    setModalOpen(true);
+  };
+
+  const closeModalHandler = () => {
+    setModalOpen(false);
   };
 
   const nameControlClasses = `control ${
@@ -87,6 +96,9 @@ const ContactForm = () => {
 
   return (
     <form onSubmit={sendEmailHandler} ref={form}>
+      {didSubmit && modalOpen && <Modal onClick={closeModalHandler} />}
+      {didSubmit && modalOpen && <Backdrop onClick={closeModalHandler} />}
+      {/* {didSubmit && <Backdrop onClick={props.closeDrawerHandler} />} */}
       <div className="inputContainer">
         <label htmlFor="fullName" className="label">
           Full Name

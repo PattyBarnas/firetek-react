@@ -13,3 +13,10 @@
 .modal p {
   font-size: 1.8rem;
 }
+
+@media (max-width: 768px) {
+  .modal {
+    width: 80%;
+    left: 10%;
+  }
+}

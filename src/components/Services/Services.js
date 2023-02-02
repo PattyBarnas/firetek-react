@@ -21,11 +21,11 @@ const Services = () => {
           </p>
         </div>
         <div className="ac">
-          <img
+          {/* <img
             className="ac-unit"
             src={require("../../images/air-conditioner.jpg")}
             alt="ac-unit"
-          />
+          /> */}
         </div>
 
         <div className="furnace-services">

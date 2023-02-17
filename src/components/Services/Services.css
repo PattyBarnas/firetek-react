@@ -69,18 +69,20 @@ h2 {
 }
 /* /////////////AC//////////// */
 
-.ac-unit,
-.furnace-unit,
-.boilers {
+img.ac-unit,
+img.furnace-unit,
+img.boilers {
   width: 65%;
+  height: 100%;
   border-radius: 32px;
   box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
   border: solid 1.2px rgba(0, 0, 0, 0.1);
   padding: 0.8rem;
   margin: 6.2rem 0;
 }
-.water-heater-unit {
+img.water-heater-unit {
   width: 50%;
+  height: 100%;
   border-radius: 32px;
   box-shadow: 4px 12px 24px rgba(0, 0, 0, 0.226);
   border: solid 1.2px rgba(0, 0, 0, 0.1);
@@ -105,10 +107,10 @@ h2 {
   max-width: 85%;
 }
 
-.ac-unit:hover,
-.furnace-unit:hover,
-.water-heater-unit:hover,
-.boilers:hover {
+img.ac-unit:hover,
+img.furnace-unit:hover,
+img.water-heater-unit:hover,
+img.boilers:hover {
   transform: scale(104%);
   box-shadow: 8px 24px 32px rgba(0, 0, 0, 0.226);
 }
@@ -168,15 +170,12 @@ h2 {
   .boilers-img,
   .water-heater-img,
   .furnace-img {
-    /* display: flex; */
     align-items: center;
     justify-items: center;
-    /* margin: 0; */
   }
 
   .ac {
     grid-row: 2/3;
-    transform: scale(75%);
   }
 
   .ac-services,
@@ -202,10 +201,10 @@ h2 {
     font-size: 2rem;
     line-height: 1.8;
   }
-  .furnace-unit,
-  .boilers,
-  .water-heater-unit,
-  .ac-unit {
+  img.furnace-unit,
+  img.boilers,
+  img.water-heater-unit,
+  img.ac-unit {
     width: 45%;
   }
 }
@@ -220,10 +219,10 @@ h2 {
   .boiler-services {
     padding: 0;
   }
-  .ac-unit,
-  .furnace-unit,
-  .boilers,
-  .water-heater-unit {
+  img.ac-unit,
+  img.furnace-unit,
+  img.boilers,
+  img.water-heater-unit {
     width: 80%;
   }
   .services-provided h3 {
@@ -242,8 +241,5 @@ h2 {
   .services-ad {
     max-width: 100%;
     padding: 1.2rem;
-  }
-  .ac-unit {
-    transform: scale(90%);
   }
 }

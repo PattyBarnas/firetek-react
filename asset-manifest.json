@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/firetek-react/static/css/main.017d6d61.css",
-    "main.js": "/firetek-react/static/js/main.75971ad6.js",
+    "main.js": "/firetek-react/static/js/main.efc5905b.js",
+    "static/media/air-conditioner.jpg": "/firetek-react/static/media/air-conditioner.4ada227b39dd3e7a078a.jpg",
     "static/media/water-boiler.jpg": "/firetek-react/static/media/water-boiler.c8179d065c7fe036fb5b.jpg",
     "static/media/f-p.jpg": "/firetek-react/static/media/f-p.cc08e10be68e84d9bbf5.jpg",
     "static/media/hero-img.jpg": "/firetek-react/static/media/hero-img.42e95c0f5e88d5edbff8.jpg",
@@ -9,10 +10,10 @@
     "static/media/services.jpg": "/firetek-react/static/media/services.8551ee80ca693e800494.jpg",
     "index.html": "/firetek-react/index.html",
     "main.017d6d61.css.map": "/firetek-react/static/css/main.017d6d61.css.map",
-    "main.75971ad6.js.map": "/firetek-react/static/js/main.75971ad6.js.map"
+    "main.efc5905b.js.map": "/firetek-react/static/js/main.efc5905b.js.map"
   },
   "entrypoints": [
     "static/css/main.017d6d61.css",
-    "static/js/main.75971ad6.js"
+    "static/js/main.efc5905b.js"
   ]
 }

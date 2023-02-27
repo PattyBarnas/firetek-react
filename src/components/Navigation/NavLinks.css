@@ -13,7 +13,7 @@
 
 .nav-links li a {
   text-decoration: none;
-  font-size: 2.6rem;
+  font-size: 2.2rem;
   font-weight: 400;
   letter-spacing: 1.2px;
   color: #fff;
@@ -37,7 +37,7 @@
 .call-us {
   display: flex;
   align-items: center;
-  font-size: 2.3rem !important;
+  font-size: 2rem !important;
   font-weight: 500;
   color: #fff !important;
 }

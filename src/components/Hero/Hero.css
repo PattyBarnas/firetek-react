@@ -43,6 +43,10 @@
   line-height: 1.8;
 }
 
+.hero-section p span {
+  color: rgba(34, 184, 207, 0.9);
+}
+
 .btn-learn-more {
   margin-right: 19%;
   padding: 1.4rem 2.8rem;

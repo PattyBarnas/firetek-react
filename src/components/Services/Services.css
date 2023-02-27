@@ -167,6 +167,12 @@ img.boilers:hover {
     row-gap: 0;
     padding: 2.5rem;
   }
+  .ac {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   .boilers-img,
   .water-heater-img,
   .furnace-img {

@@ -12,6 +12,7 @@ const Contact = () => {
           Please leave us a message we'd love to help. We have different social
           media platforms you can reach us on.
         </p>
+        <p className="polish-tag">- We speak Polish -</p>
       </div>
 
       <div className="contact-container">

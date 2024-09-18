@@ -1,8 +1,19 @@
 .nav-container {
   display: flex;
   padding: 1.4rem 8.2rem;
-  /* border-bottom: 1.6px solid #22b8cf; */
-  background-color: rgba(34, 184, 207, 0.9);
+  margin: 0.8rem;
+  border-radius: 12px;
+  background-color: rgba(34, 184, 207, 0.5);
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 1.8rem;
+  margin-right: auto;
+}
+.logo-text {
+  font-size: 2rem;
+  color: #212529;
 }
 .nav-links {
   list-style: none;
@@ -29,7 +40,7 @@
 
 .nav-link:hover {
   /* background-color: #f03e3e; */
-  border-bottom: 6px solid #99e9f2;
+  border-bottom: 6px solid #ffa8a8;
   border-radius: 12px;
   padding: 0.5rem;
 }

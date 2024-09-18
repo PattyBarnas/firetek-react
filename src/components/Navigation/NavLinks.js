@@ -5,11 +5,14 @@ import "./NavLinks.css";
 const NavLinks = () => {
   return (
     <div className="nav-container">
-      <img
-        className="nav-img"
-        src={require("../../images/firetek-logo.jpg")}
-        alt="firetek-logo"
-      />
+      <div className="logo-container">
+        <img
+          className="nav-img"
+          src={require("../../images/firetek-logo.jpg")}
+          alt="firetek-logo"
+        />
+        <p className="logo-text">Heating & Cooling</p>
+      </div>
 
       <ul className="nav-links">
         <li>
@@ -17,7 +20,7 @@ const NavLinks = () => {
             className="nav-link"
             to="/"
             style={({ isActive }) => ({
-              color: isActive ? "#f03e3e" : "#f1f3f5",
+              color: isActive ? "#ff8787" : "#f1f3f5",
             })}
           >
             Home
@@ -28,7 +31,7 @@ const NavLinks = () => {
             className="nav-link"
             to="services"
             style={({ isActive }) => ({
-              color: isActive ? "#f03e3e" : "#f1f3f5",
+              color: isActive ? "#ff8787" : "#f1f3f5",
             })}
           >
             Services
@@ -39,7 +42,7 @@ const NavLinks = () => {
             className="nav-link"
             to="contact"
             style={({ isActive }) => ({
-              color: isActive ? "#f03e3e" : "#f1f3f5",
+              color: isActive ? "#ff8787" : "#f1f3f5",
             })}
           >
             Contact

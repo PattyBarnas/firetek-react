@@ -11,12 +11,13 @@ const Hero = () => {
     <main className="hero-section-main">
       <div className="hero-section">
         <div className="hero">
-          <h1 className="hero-title">Providing comfort at home.</h1>
+          <h1 className="hero-title">Bringing comfort to your home.</h1>
           <p>
-            Chicago weather is unpredicatable, but don't worry{" "}
-            <span>Firetek HVAC</span> got you covered! providing you our heating
-            and cooling services. We run 24/7 and are ready to serve quality
-            work.
+            Chicago weather may be unpredictable, but with{" "}
+            <span>Firetek HVAC</span>, you're always covered! We provide
+            top-notch heating and cooling services, available 24/7 to ensure
+            your comfort. Count on us for reliable, high-quality service
+            whenever you need it.
           </p>
           <button
             className="btn-learn-more"

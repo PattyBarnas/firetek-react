@@ -12,8 +12,9 @@
   margin-right: auto;
 }
 .logo-text {
-  font-size: 2rem;
-  color: #212529;
+  font-size: 1.6rem;
+  color: #fff;
+  font-style: italic;
 }
 .nav-links {
   list-style: none;

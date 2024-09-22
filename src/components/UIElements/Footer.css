@@ -1,4 +1,7 @@
 footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   text-align: center;
   color: #fff;
   background-color: rgba(34, 184, 207, 0.5);

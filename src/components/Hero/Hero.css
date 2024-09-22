@@ -1,31 +1,28 @@
 .hero-section-main {
   display: flex;
-  height: 100vh;
+  height: 90vh;
   background-size: cover;
   background-position: top;
-}
-.hero-image {
-  background-image: linear-gradient(
-      to right bottom,
-      rgba(0, 0, 0, 0.3),
-      rgba(0, 0, 0, 0.5)
-    ),
-    url("../../images/chicago.jpg");
-  background-size: cover;
-  background-position: top;
-  height: 90%;
-  width: 125%;
-  border-radius: 16px;
-  margin: 4.2rem;
 }
 
 .hero {
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.8)
+    ),
+    url("../../images/unit-exchange.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 85%;
+  border-radius: 8px;
+  box-shadow: 6px 8px 12px rgba(0, 0, 0, 0.3);
   max-width: 90%;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
   padding-top: 9.2rem;
-  margin: 0 auto;
+  margin: 3.8rem auto;
 }
 
 .hero-title {
@@ -38,10 +35,11 @@
   padding: 0.5rem;
   word-spacing: 1.9px;
   margin-bottom: 4.8rem;
+  align-self: center;
 }
 
 .hero-section p {
-  color: #e9ecef;
+  color: #fff;
   font-size: 2.2rem;
   letter-spacing: 1.2px;
   word-spacing: 3.8px;
@@ -49,10 +47,6 @@
   margin-bottom: 5.4rem;
   text-align: left;
   line-height: 1.8;
-  /* padding: 1.2rem; */
-}
-h3 {
-  /* height: 20rem; */
 }
 
 .hero-section p span {
@@ -74,8 +68,6 @@ h3 {
 }
 
 .hero-section button:hover {
-  /* border-color: rgb(240, 62, 62); */
-  /* background-color: #ffe06648; */
   animation: 0.2s hoverBtn linear;
   box-shadow: 0px 0px 8px 8px #ffe0661a;
 }
@@ -99,11 +91,11 @@ h3 {
   }
   .hero-section-main {
     background-image: linear-gradient(
-        to right bottom,
-        rgba(0, 0, 0, 1),
-        rgba(0, 0, 0, 0.7)
-      ),
-      url("../../images/chicago.jpg");
+      to right bottom,
+      rgba(0, 0, 0, 1),
+      rgba(0, 0, 0, 0.7)
+    );
+    /* url("../../images/chicago.jpg"); */
   }
   .hero p {
     max-width: 100%;

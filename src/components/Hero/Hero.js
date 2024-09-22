@@ -15,7 +15,7 @@ const Hero = () => {
           <div className="hero">
             <h1 className="hero-title">Bringing comfort to your home.</h1>
             <p>
-              Chicago weather may be unpredictable, but with{" "}
+              Chicago's weather may be unpredictable, but with{" "}
               <span>Firetek HVAC</span>, you're always covered! We provide
               top-notch heating and cooling services, available 24/7 to ensure
               your comfort. Count on us for reliable, high-quality service
